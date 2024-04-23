@@ -1,0 +1,5 @@
+CREATE TABLE students (
+    student_id BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    course VARCHAR(300)
+);
